@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synth Flowarts</title>
+    <meta
+      name="description"
+      content="Synth Flowarts — juggling, hoop, and flow practice. Coming soon."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #1a2420;
+        --mute: #4a5c55;
+        --cream: #f3efe6;
+        --glow: #c8f062;
+        --teal: #1f6f63;
+        --deep: #0d3d36;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+      body {
+        font-family: Outfit, system-ui, sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(ellipse 80% 60% at 20% 10%, rgba(200, 240, 98, 0.35), transparent 55%),
+          radial-gradient(ellipse 70% 50% at 90% 80%, rgba(31, 111, 99, 0.28), transparent 50%),
+          linear-gradient(160deg, #e8f2ec 0%, var(--cream) 45%, #d9ebe4 100%);
+        display: grid;
+        place-items: center;
+        padding: 2rem 1.25rem;
+      }
+      main {
+        width: min(40rem, 100%);
+        text-align: left;
+      }
+      .brand {
+        font-family: Fraunces, Georgia, serif;
+        font-weight: 700;
+        font-size: clamp(2.75rem, 8vw, 4.25rem);
+        line-height: 0.95;
+        letter-spacing: -0.03em;
+        margin: 0 0 1rem;
+        color: var(--deep);
+      }
+      .lede {
+        font-size: 1.15rem;
+        line-height: 1.45;
+        color: var(--mute);
+        max-width: 28rem;
+        margin: 0 0 1.75rem;
+      }
+      .status {
+        display: inline-block;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--deep);
+        background: color-mix(in srgb, var(--glow) 70%, white);
+        padding: 0.35rem 0.7rem;
+        margin-bottom: 1.25rem;
+      }
+      .siblings {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1.25rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .siblings a {
+        color: var(--teal);
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 2px solid color-mix(in srgb, var(--glow) 80%, transparent);
+      }
+      .siblings a:hover {
+        color: var(--deep);
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .brand {
+          animation: rise 0.7s ease-out both;
+        }
+        .lede,
+        .status,
+        .siblings {
+          animation: rise 0.7s ease-out 0.12s both;
+        }
+      }
+      @keyframes rise {
+        from {
+          opacity: 0;
+          transform: translateY(0.6rem);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="status">Coming soon</p>
+      <h1 class="brand">Synth Flowarts</h1>
+      <p class="lede">
+        Guided practice for juggling, hoop, and other flow arts — timed drills,
+        cues, and progress tracking in the SynthFit family.
+      </p>
+      <ul class="siblings">
+        <li><a href="https://synthfit.online">SynthFit</a></li>
+        <li><a href="https://yoga.synthfit.online">SynthYoga</a></li>
+      </ul>
+    </main>
+  </body>
+</html>
