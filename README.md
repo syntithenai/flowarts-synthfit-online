@@ -1,4 +1,4 @@
-# Synth Flowarts web (placeholder)
+# SynthFlow web
 
 Published from `yogapp` via `scripts/publish-flowarts-web.sh`.
 

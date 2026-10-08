@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SynthFlow</title>
+    <meta
+      name="description"
+      content="SynthFlow — learn juggling, hoop and staff with a 3D coach, counted routines and music on the beat."
+    />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="apple-touch-icon" href="./brand-mark.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #1a2420;
+        --mute: #4a5c55;
+        --cream: #f3efe6;
+        --glow: #c8f062;
+        --teal: #1f6f63;
+        --deep: #0d3d36;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+      body {
+        font-family: Outfit, system-ui, sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(ellipse 80% 60% at 20% 10%, rgba(200, 240, 98, 0.35), transparent 55%),
+          radial-gradient(ellipse 70% 50% at 90% 80%, rgba(31, 111, 99, 0.28), transparent 50%),
+          linear-gradient(160deg, #e8f2ec 0%, var(--cream) 45%, #d9ebe4 100%);
+        display: grid;
+        place-items: center;
+        padding: 2rem 1.25rem;
+      }
+      main {
+        width: min(40rem, 100%);
+        text-align: left;
+      }
+      .hero-brand {
+        display: flex;
+        align-items: center;
+        gap: 1rem 1.25rem;
+        margin: 0 0 1rem;
+      }
+      .logo {
+        width: clamp(4.5rem, 14vw, 6.5rem);
+        height: auto;
+        flex: 0 0 auto;
+        filter: drop-shadow(0 0.35rem 0.9rem rgba(13, 61, 54, 0.18));
+      }
+      .brand {
+        font-family: Fraunces, Georgia, serif;
+        font-weight: 700;
+        font-size: clamp(2.5rem, 7vw, 4rem);
+        line-height: 0.95;
+        letter-spacing: -0.03em;
+        margin: 0;
+        color: var(--deep);
+      }
+      .lede {
+        font-size: 1.15rem;
+        line-height: 1.45;
+        color: var(--mute);
+        max-width: 28rem;
+        margin: 0 0 1.75rem;
+      }
+      .status {
+        display: inline-block;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--deep);
+        background: color-mix(in srgb, var(--glow) 70%, white);
+        padding: 0.35rem 0.7rem;
+        margin-bottom: 1.25rem;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1rem;
+        margin: 0 0 1.5rem;
+      }
+      .actions button,
+      .actions a.chip {
+        appearance: none;
+        border: none;
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--deep);
+        background: color-mix(in srgb, var(--glow) 75%, white);
+        padding: 0.55rem 0.95rem;
+        border-radius: 8px;
+      }
+      .actions a.chip {
+        background: transparent;
+        border: 2px solid color-mix(in srgb, var(--teal) 45%, transparent);
+        color: var(--teal);
+      }
+      .siblings {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1.25rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .siblings a {
+        color: var(--teal);
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 2px solid color-mix(in srgb, var(--glow) 80%, transparent);
+      }
+      .siblings a:hover {
+        color: var(--deep);
+      }
+      .backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(13, 61, 54, 0.45);
+        display: grid;
+        place-items: center;
+        padding: 1rem;
+        z-index: 40;
+      }
+      .backdrop[hidden] {
+        display: none;
+      }
+      .dialog {
+        width: min(28rem, 100%);
+        background: #fffef8;
+        color: var(--ink);
+        border-radius: 14px;
+        padding: 1.1rem 1.15rem 1.25rem;
+        box-shadow: 0 1rem 2.5rem rgba(13, 61, 54, 0.28);
+      }
+      .dialog-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.75rem;
+        margin-bottom: 0.55rem;
+      }
+      .dialog-head h2 {
+        margin: 0;
+        font-family: Fraunces, Georgia, serif;
+        font-size: 1.45rem;
+      }
+      .dialog-close {
+        appearance: none;
+        border: none;
+        background: transparent;
+        font-size: 1.5rem;
+        line-height: 1;
+        cursor: pointer;
+        color: var(--mute);
+      }
+      .dialog-lede {
+        margin: 0 0 0.9rem;
+        color: var(--mute);
+        line-height: 1.4;
+      }
+      .suite-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      .suite-item {
+        border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+        border-radius: 10px;
+        padding: 0.75rem 0.85rem;
+      }
+      .suite-item--current {
+        border-color: color-mix(in srgb, var(--teal) 55%, transparent);
+      }
+      .suite-item strong {
+        display: block;
+        font-size: 1.05rem;
+      }
+      .suite-item p {
+        margin: 0.3rem 0 0.65rem;
+        color: var(--mute);
+        font-size: 0.92rem;
+        line-height: 1.4;
+      }
+      .suite-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+      .suite-actions a,
+      .suite-actions span {
+        font-size: 0.9rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--deep);
+        background: color-mix(in srgb, var(--glow) 70%, white);
+        padding: 0.35rem 0.65rem;
+        border-radius: 6px;
+      }
+      .suite-actions a.secondary {
+        background: transparent;
+        border: 1px solid color-mix(in srgb, var(--teal) 40%, transparent);
+        color: var(--teal);
+      }
+      .suite-actions span {
+        background: color-mix(in srgb, var(--mute) 18%, white);
+        color: var(--mute);
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .hero-brand {
+          animation: rise 0.7s ease-out both;
+        }
+        .lede,
+        .status,
+        .actions,
+        .siblings {
+          animation: rise 0.7s ease-out 0.12s both;
+        }
+      }
+      @keyframes rise {
+        from {
+          opacity: 0;
+          transform: translateY(0.6rem);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="status">Juggling · Hoop · Staff</p>
+      <div class="hero-brand">
+        <img
+          class="logo"
+          src="./logo.png"
+          width="512"
+          height="512"
+          alt="SynthFlow logo"
+        />
+        <h1 class="brand">SynthFlow</h1>
+      </div>
+      <p class="lede">
+        Learn flow arts with a 3D coach that throws, spins and hoops in front
+        of you. Routines are counted in bars, music is matched to the count,
+        and every movement you master unlocks a harder one.
+      </p>
+      <div class="actions">
+        <a class="chip" href="/">Open SynthFlow</a>
+        <button type="button" id="open-suite">Synth apps</button>
+        <a class="chip" href="https://synthfit.online">SynthFit web</a>
+        <a class="chip" href="https://yoga.synthfit.online">SynthYoga web</a>
+      </div>
+      <ul class="siblings">
+        <li><a href="https://synthfit.online">SynthFit</a></li>
+        <li><a href="https://yoga.synthfit.online">SynthYoga</a></li>
+      </ul>
+    </main>
+
+    <div
+      class="backdrop"
+      id="suite-backdrop"
+      hidden
+      role="presentation"
+    >
+      <div
+        class="dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="suite-title"
+      >
+        <div class="dialog-head">
+          <h2 id="suite-title">Synth apps</h2>
+          <button type="button" class="dialog-close" id="suite-close" aria-label="Close">
+            ×
+          </button>
+        </div>
+        <p class="dialog-lede">
+          Three apps in the SynthFit family. Open the web version, or install
+          from Play Store when published.
+        </p>
+        <ul class="suite-list">
+          <li class="suite-item">
+            <strong>SynthYoga</strong>
+            <p>
+              Yoga practice, classes, trainers directory, mythology rewards,
+              meditations and ASMR.
+            </p>
+            <div class="suite-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=app.yogapp.practice"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Install</a
+              >
+              <a
+                class="secondary"
+                href="https://yoga.synthfit.online/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Visit web</a
+              >
+            </div>
+          </li>
+          <li class="suite-item">
+            <strong>SynthFit</strong>
+            <p>
+              Gym workouts, coaching, food diary, treats rewards, and wearables.
+            </p>
+            <div class="suite-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=online.synthfit.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Install</a
+              >
+              <a
+                class="secondary"
+                href="https://synthfit.online/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Visit web</a
+              >
+            </div>
+          </li>
+          <li class="suite-item suite-item--current">
+            <strong>SynthFlow</strong>
+            <p>
+              Juggling, hoop and staff with a 3D coach, counted routines,
+              beat-matched music and movement unlocks.
+            </p>
+            <div class="suite-actions">
+              <a
+                href="https://play.google.com/store/apps/details?id=online.synthfit.flow"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Install</a
+              >
+              <a class="secondary" href="/">Open web app</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        const backdrop = document.getElementById('suite-backdrop')
+        const openBtn = document.getElementById('open-suite')
+        const closeBtn = document.getElementById('suite-close')
+        function open() {
+          backdrop.hidden = false
+          closeBtn.focus()
+        }
+        function close() {
+          backdrop.hidden = true
+          openBtn.focus()
+        }
+        openBtn.addEventListener('click', open)
+        closeBtn.addEventListener('click', close)
+        backdrop.addEventListener('click', function (e) {
+          if (e.target === backdrop) close()
+        })
+        window.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && !backdrop.hidden) close()
+        })
+      })()
+    </script>
+  </body>
+</html>
