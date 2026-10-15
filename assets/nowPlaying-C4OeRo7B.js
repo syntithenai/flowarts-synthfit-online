@@ -1,1 +1,0 @@
-import{i as e}from"./dist-Bkzel0jJ.js";import{r as t,t as n}from"./platform-D2bZmwek.js";var r=e(`YogappNowPlaying`);function i(){return t()&&n()===`android`}async function a(){if(i())try{await r.stop()}catch{}}export{a as stopNowPlaying};

@@ -1,174 +1,1118 @@
 {
+ "als-slide": {
+  "3d": "7133bef652cb",
+  "muscles": "5b5a458b57da"
+ },
  "arm-circles": {
-  "3d": "2baaf9067ebf",
-  "muscles": "2acdddf1eb48"
+  "3d": "27fecfd4d2df",
+  "muscles": "98ccd00bb9ed"
+ },
+ "behind-the-back": {
+  "3d": "88b4cfd27fb9",
+  "muscles": "de8edf085897"
+ },
+ "box": {
+  "3d": "82f8091eba55",
+  "muscles": "965a59c689a9"
  },
  "breathe": {
-  "3d": "79c4a032592c",
-  "muscles": "aedd0cd3b2a4"
+  "3d": "0863760db592",
+  "muscles": "ce07dfe37be2"
+ },
+ "broken-box": {
+  "3d": "6868c93373e4",
+  "muscles": "7cc2fc44c313"
+ },
+ "broken-shower": {
+  "3d": "f2792b35fdfd",
+  "muscles": "7da8897b2437"
+ },
+ "burkes-barrage": {
+  "3d": "db91a24bfcc2",
+  "muscles": "20539f5fd323"
  },
  "cascade": {
-  "3d": "e124fcce57b2",
-  "muscles": "6530f330ce56"
+  "3d": "f5a37b20de84",
+  "muscles": "a6075b47c134"
+ },
+ "chops": {
+  "3d": "44f7f29f806a",
+  "muscles": "6495bfba0e18"
+ },
+ "claw-cascade": {
+  "3d": "853797018c7e",
+  "muscles": "55f5106f0864"
+ },
+ "club-behind-back": {
+  "3d": "6d9e10e7f272",
+  "muscles": "d9739deaedad"
+ },
+ "club-cascade": {
+  "3d": "fb90300b63a6",
+  "muscles": "998bbffe958e"
+ },
+ "club-doubles": {
+  "3d": "3a35ad69fb3d",
+  "muscles": "94870a60545a"
+ },
+ "club-exchange": {
+  "3d": "a73b4e4a302a",
+  "muscles": "32f41f6914c7"
+ },
+ "club-flats": {
+  "3d": "8d4f4e8c1cf6",
+  "muscles": "935b5fb02ee9"
+ },
+ "club-four-fountain": {
+  "3d": "6db2dc62c129",
+  "muscles": "10760a2aced9"
+ },
+ "club-pass-doubles": {
+  "3d": "b57188d38eed",
+  "muscles": "3df617a72782"
+ },
+ "club-pass-four-count": {
+  "3d": "e7d314d0ec49",
+  "muscles": "12d64aa3d3bc"
+ },
+ "club-pass-seven-doubles": {
+  "3d": "550b6ace7509",
+  "muscles": "326a0aa916bb"
+ },
+ "club-pass-three-count": {
+  "3d": "b5e698c4c04d",
+  "muscles": "97de5af47814"
+ },
+ "club-pass-two-count": {
+  "3d": "cce1854ac92f",
+  "muscles": "82940cb5f493"
+ },
+ "club-pass-ultimates": {
+  "3d": "74245b558a3b",
+  "muscles": "cf1f5f0aa126"
+ },
+ "club-swing": {
+  "3d": "7b0e2f51270d",
+  "muscles": "4e22ba72d678"
+ },
+ "club-under-leg": {
+  "3d": "d7d0e71416bb",
+  "muscles": "c469aff4bf1b"
+ },
+ "columns": {
+  "3d": "7baa450131e2",
+  "muscles": "204b7eea9752"
+ },
+ "crossed-arm-cascade": {
+  "3d": "df22c5a6dec7",
+  "muscles": "4e3139c1d3c5"
+ },
+ "crossed-arm-shower": {
+  "3d": "6bc3a5ae78d1",
+  "muscles": "faee5f383043"
+ },
+ "crossunder": {
+  "3d": "2800f06d7631",
+  "muscles": "597a36912909"
+ },
+ "double-staff-helicopters": {
+  "3d": "053c324b633a",
+  "muscles": "6f49d0870c20"
+ },
+ "double-staff-isolations": {
+  "3d": "196fd4c4b8d1",
+  "muscles": "62c672b5116f"
+ },
+ "double-staff-reverse": {
+  "3d": "09a8e9712af9",
+  "muscles": "9976bb13813b"
+ },
+ "double-staff-same-time": {
+  "3d": "e73eab0ade94",
+  "muscles": "5fb23fae79e9"
+ },
+ "double-staff-split-time": {
+  "3d": "e9fcabea970d",
+  "muscles": "95659cdfebc8"
+ },
+ "double-staff-split-wheels": {
+  "3d": "b1ed95a7da7b",
+  "muscles": "14be57ab09f8"
+ },
+ "double-staff-wheels": {
+  "3d": "3591a4f91cdb",
+  "muscles": "ae8963e9aa39"
+ },
+ "double-staff-windmill": {
+  "3d": "860b9e8e2ef3",
+  "muscles": "14c0f8c0f518"
+ },
+ "doubles-chest-and-hand": {
+  "3d": "59bdc4df52bc",
+  "muscles": "0245bd9d7948"
+ },
+ "doubles-coin-flips": {
+  "3d": "4b42a366918e",
+  "muscles": "5528934cb1df"
+ },
+ "doubles-floor-spins": {
+  "3d": "4ce2926d26de",
+  "muscles": "94ec48625797"
+ },
+ "doubles-hand-spins": {
+  "3d": "3d0e369b2e87",
+  "muscles": "0fede17c8ced"
+ },
+ "doubles-isolations": {
+  "3d": "a73c98c68814",
+  "muscles": "114baa8a0d85"
+ },
+ "doubles-offset-spins": {
+  "3d": "06f5456de42f",
+  "muscles": "11d8855c9d69"
+ },
+ "doubles-side-spins": {
+  "3d": "fa185783f809",
+  "muscles": "47248b713e55"
+ },
+ "doubles-toss": {
+  "3d": "c9b7b16aa3e7",
+  "muscles": "0d4c4d60ef89"
+ },
+ "doubles-waist-and-hand": {
+  "3d": "a45e2241cb63",
+  "muscles": "c3c76ed14423"
+ },
+ "doubles-waist-and-lasso": {
+  "3d": "a12bbabd8d91",
+  "muscles": "7f1106c30ea8"
+ },
+ "doubles-wedgies": {
+  "3d": "03faca91138f",
+  "muscles": "922f64e73d25"
+ },
+ "factory": {
+  "3d": "0137aaec70b4",
+  "muscles": "73c571d557c3"
  },
  "five-ball-cascade": {
-  "3d": "4e6643f1d791",
-  "muscles": "db8d5c008efb"
+  "3d": "619661ffa34a",
+  "muscles": "ca5cea51c6df"
+ },
+ "five-ball-half-shower": {
+  "3d": "0b030d16186e",
+  "muscles": "c1df0b94f8c1"
+ },
+ "five-ball-shower": {
+  "3d": "0e77a86fbf6f",
+  "muscles": "a05edfae4b61"
  },
  "four-ball-fountain": {
-  "3d": "16dbc1577600",
-  "muscles": "941727297085"
+  "3d": "48d3479923a3",
+  "muscles": "7c082bdbba17"
+ },
+ "four-ball-shower": {
+  "3d": "3671b0068895",
+  "muscles": "3e5d1a7cfce8"
+ },
+ "frostbite": {
+  "3d": "615bfb7deead",
+  "muscles": "38cd4e82a52a"
+ },
+ "grace": {
+  "3d": "517ea49895ef",
+  "muscles": "8b26809cbf67"
+ },
+ "half-shower": {
+  "3d": "89e55c4f6a90",
+  "muscles": "b971a2d98d42"
+ },
+ "head-bounce-cascade": {
+  "3d": "25ce483bfe22",
+  "muscles": "4d52d205a7fb"
+ },
+ "high-low-shower": {
+  "3d": "58f8b2683f20",
+  "muscles": "3c3be41c097a"
  },
  "hip-circles": {
-  "3d": "f665a091688f",
-  "muscles": "d6adfe5ef9b0"
+  "3d": "7bd24e6a3986",
+  "muscles": "cde35ee56b22"
+ },
+ "hoop-arm": {
+  "3d": "227c91459d29",
+  "muscles": "10e89483e257"
+ },
+ "hoop-back-roll": {
+  "3d": "65a41b2a95a2",
+  "muscles": "86645003f1c3"
+ },
+ "hoop-barrel-roll": {
+  "3d": "9c8ba79f26d8",
+  "muscles": "4b9ff9aa0e69"
+ },
+ "hoop-behind-back-pass": {
+  "3d": "1ecbe42f8700",
+  "muscles": "e0e08fa1e527"
+ },
+ "hoop-boomerang": {
+  "3d": "6d2d9493e931",
+  "muscles": "cf34cd4e6973"
+ },
+ "hoop-cateye": {
+  "3d": "abe7a12a1188",
+  "muscles": "00c384a0b651"
  },
  "hoop-chest": {
-  "3d": "3ff17cf554f1",
-  "muscles": "4c2085a43d61"
+  "3d": "d875a536c6d9",
+  "muscles": "e7c3acae6357"
+ },
+ "hoop-chest-lift": {
+  "3d": "26760bebee4c",
+  "muscles": "f65b9850d0f4"
+ },
+ "hoop-chest-roll": {
+  "3d": "89903c21220c",
+  "muscles": "735e5e6dd423"
+ },
+ "hoop-coin-flip": {
+  "3d": "5d36679acbc0",
+  "muscles": "5b294c618482"
+ },
+ "hoop-corkscrew": {
+  "3d": "1f77ced51038",
+  "muscles": "21f8be1fe82c"
+ },
+ "hoop-drop-in": {
+  "3d": "ae7d29859ef3",
+  "muscles": "1009e924cce9"
+ },
+ "hoop-duck-out": {
+  "3d": "e8db1d996d1d",
+  "muscles": "d81a2fac319e"
+ },
+ "hoop-elbow": {
+  "3d": "526a11f7c8cf",
+  "muscles": "c34cf63e665e"
  },
  "hoop-escalator": {
-  "3d": "2aa04416c414",
-  "muscles": "39a8cc695c59"
+  "3d": "33fe78550b4c",
+  "muscles": "60ba481b2c4d"
+ },
+ "hoop-floor-isolation": {
+  "3d": "638d9cc9af72",
+  "muscles": "e65bbf2b3895"
+ },
+ "hoop-foot": {
+  "3d": "6b20a9ec67ee",
+  "muscles": "68d84fd258b3"
+ },
+ "hoop-full-escalator": {
+  "3d": "dc9804da5140",
+  "muscles": "0d8f320aaaf8"
+ },
+ "hoop-halo": {
+  "3d": "131480c6dc45",
+  "muscles": "09ea3036d378"
  },
  "hoop-hand-spin": {
-  "3d": "a146f3f7fa26",
-  "muscles": "b0475d282e43"
+  "3d": "36d0077e0aa1",
+  "muscles": "2a93ecbc2563"
+ },
+ "hoop-hips": {
+  "3d": "2925bd515f3e",
+  "muscles": "8469f14214b8"
  },
  "hoop-isolation": {
-  "3d": "3b3ff4491fe2",
-  "muscles": "b6c9ecd2e8dc"
+  "3d": "0d096c425b3e",
+  "muscles": "4feccfe85780"
+ },
+ "hoop-isopop": {
+  "3d": "1e9f67a0abc2",
+  "muscles": "19d7519a95b2"
+ },
+ "hoop-juggle-423": {
+  "3d": "3e88f14b8002",
+  "muscles": "dc49384103a1"
+ },
+ "hoop-juggle-441": {
+  "3d": "2b54fd3a5223",
+  "muscles": "84af296f46d9"
+ },
+ "hoop-juggle-back-throw": {
+  "3d": "8fb79673d4ac",
+  "muscles": "e1bb0869b2b1"
+ },
+ "hoop-juggle-body-hoop": {
+  "3d": "09961ee9df3b",
+  "muscles": "13eff5ccea0d"
+ },
+ "hoop-juggle-cascade": {
+  "3d": "ddd25108d2fc",
+  "muscles": "aa4606845a94"
+ },
+ "hoop-juggle-exchange": {
+  "3d": "c7d980fae732",
+  "muscles": "1c05b175ab8e"
+ },
+ "hoop-juggle-four": {
+  "3d": "765a61fd88fa",
+  "muscles": "ab7a0f9223a9"
+ },
+ "hoop-juggle-reverse": {
+  "3d": "9abaeb5d0cb5",
+  "muscles": "e9e4e87b3b51"
+ },
+ "hoop-juggle-shower": {
+  "3d": "e739e4c8b635",
+  "muscles": "2aa857ec61ab"
+ },
+ "hoop-juggle-single": {
+  "3d": "007e6cefa5cf",
+  "muscles": "5909377caf1c"
+ },
+ "hoop-juggle-two-in-one": {
+  "3d": "0a8de0a12914",
+  "muscles": "5f87ecdc7d43"
+ },
+ "hoop-juggle-under-leg": {
+  "3d": "827f3e7dabca",
+  "muscles": "22a83db1cb69"
+ },
+ "hoop-jump-through": {
+  "3d": "8a97a8fe5a4a",
+  "muscles": "f0819d71d493"
+ },
+ "hoop-knee-drop": {
+  "3d": "d0b878b96a1a",
+  "muscles": "202caf6e7d5c"
  },
  "hoop-knees": {
-  "3d": "e7f2a34657e2",
-  "muscles": "6832173f31a8"
+  "3d": "edb30e102fc1",
+  "muscles": "bfd152472f17"
  },
  "hoop-lasso": {
-  "3d": "fd6d83472cd0",
-  "muscles": "1dc7d9134b58"
+  "3d": "662fdc8b643d",
+  "muscles": "56c4fcd1ace7"
  },
  "hoop-neck": {
-  "3d": "13b0cff3c8e0",
-  "muscles": "6279aa4684e5"
+  "3d": "577d1ea8e052",
+  "muscles": "3fada4faf899"
+ },
+ "hoop-palm-spin": {
+  "3d": "d79161a11f6f",
+  "muscles": "c96b2ca51b12"
  },
  "hoop-pass": {
-  "3d": "109e840cc372",
-  "muscles": "54670b0349c6"
+  "3d": "47db087906f1",
+  "muscles": "12676e42acae"
+ },
+ "hoop-reverse-chest": {
+  "3d": "026ad7d41310",
+  "muscles": "f3f2f672017c"
+ },
+ "hoop-reverse-hand-spin": {
+  "3d": "c95e22643199",
+  "muscles": "e07eacc9ee41"
+ },
+ "hoop-reverse-lasso": {
+  "3d": "75767b5aa8d5",
+  "muscles": "5a4300c6ffa2"
+ },
+ "hoop-reverse-waist": {
+  "3d": "3f6f8145ee5a",
+  "muscles": "178ce0e61dc6"
+ },
+ "hoop-shoulder": {
+  "3d": "a62612b1fa8c",
+  "muscles": "b26980dac7c5"
+ },
+ "hoop-side-spin": {
+  "3d": "0d8db952709b",
+  "muscles": "82a4e1b430a8"
+ },
+ "hoop-thighs": {
+  "3d": "fc7e20113fba",
+  "muscles": "869246ef0148"
+ },
+ "hoop-toss": {
+  "3d": "006aef042bba",
+  "muscles": "da5132dc6f22"
+ },
+ "hoop-under-leg-pass": {
+  "3d": "2d298e42b2e0",
+  "muscles": "ee6a46236a12"
+ },
+ "hoop-vortex": {
+  "3d": "c0afb121e7fe",
+  "muscles": "72de5113e67b"
  },
  "hoop-waist": {
-  "3d": "67210cff0df2",
-  "muscles": "360723e368d1"
+  "3d": "6a47aaad5e41",
+  "muscles": "8e2e4e5b54d4"
+ },
+ "hoop-weave": {
+  "3d": "e4d090b58c75",
+  "muscles": "339ea870cabf"
  },
  "hoop-wedgie": {
-  "3d": "889d9645a5d3",
-  "muscles": "c2899bb753b5"
+  "3d": "26a5feacf145",
+  "muscles": "baef6ee1ee72"
+ },
+ "hoop-wheel-isolation": {
+  "3d": "eec38dc63d24",
+  "muscles": "0c166f3b7c4a"
+ },
+ "infinity": {
+  "3d": "7ac66b14c808",
+  "muscles": "81e155be6cdb"
  },
  "knee-bounce": {
-  "3d": "68de5f9346a7",
-  "muscles": "ad00d78ce9bf"
+  "3d": "950cdb17dee6",
+  "muscles": "546edbcd98c8"
+ },
+ "knee-bounce-cascade": {
+  "3d": "98d7b87f9e3f",
+  "muscles": "3fe0da54e542"
+ },
+ "martins-one-count": {
+  "3d": "17a894371638",
+  "muscles": "a75faa9ea164"
  },
  "mills-mess": {
-  "3d": "bc10499719f3",
-  "muscles": "4c740610bcca"
+  "3d": "c9379960891a",
+  "muscles": "3d6b44d3e4fc"
  },
  "neck-rolls": {
-  "3d": "202cbda1c070",
-  "muscles": "4b4fd947f304"
+  "3d": "069ff488e999",
+  "muscles": "0fd88d09a2da"
  },
  "one-ball-toss": {
-  "3d": "17787b32bcc1",
-  "muscles": "0304519965f6"
+  "3d": "25a8efca9e31",
+  "muscles": "9221dbf040d9"
+ },
+ "orinoco-flow": {
+  "3d": "dff6f21f675a",
+  "muscles": "97ba49447cfa"
+ },
+ "over-the-shoulder": {
+  "3d": "542e2116a264",
+  "muscles": "e14b9aeed255"
+ },
+ "pass-four-count": {
+  "3d": "5bac8b943604",
+  "muscles": "769c5924e744"
+ },
+ "pass-hand-across": {
+  "3d": "91e0f3254a55",
+  "muscles": "63522f39034e"
+ },
+ "pass-left-two-count": {
+  "3d": "f1934082901e",
+  "muscles": "0796a871feab"
+ },
+ "pass-one-ball": {
+  "3d": "6614153e9870",
+  "muscles": "5aee84879182"
+ },
+ "pass-six-count": {
+  "3d": "2fd2f42d7bf6",
+  "muscles": "4c399d4a4785"
+ },
+ "pass-three-count": {
+  "3d": "788eca413184",
+  "muscles": "131792166985"
+ },
+ "pass-two-count": {
+  "3d": "5ce9c46be71f",
+  "muscles": "e44b911843a3"
+ },
+ "pass-ultimates": {
+  "3d": "2532b511f7fc",
+  "muscles": "139cd15746fa"
+ },
+ "penguin-cascade": {
+  "3d": "0170df11bbe7",
+  "muscles": "1cb5d0c89be1"
+ },
+ "poi-antispin-and-spin": {
+  "3d": "db7f56e05b2f",
+  "muscles": "8e50c33746b8"
+ },
+ "poi-antispin-flower": {
+  "3d": "d53273192c92",
+  "muscles": "16dd5dfa6c8e"
+ },
+ "poi-arm-wrap": {
+  "3d": "873c8da7e198",
+  "muscles": "1d1446d0e74e"
+ },
+ "poi-behind-back-weave": {
+  "3d": "26bf6b012e79",
+  "muscles": "7deaf29b7dd1"
+ },
+ "poi-butterfly": {
+  "3d": "44c9f5df97ba",
+  "muscles": "4163be96092e"
+ },
+ "poi-buzzsaw": {
+  "3d": "0478e07d33da",
+  "muscles": "dfac5ce5bdcb"
+ },
+ "poi-cateye": {
+  "3d": "be6bce429ad2",
+  "muscles": "39e1cf87e7b4"
+ },
+ "poi-chase-the-sun": {
+  "3d": "18ba16475a54",
+  "muscles": "6d4f70d42cfc"
+ },
+ "poi-chasing-stalls": {
+  "3d": "f4baa3dd2bbd",
+  "muscles": "a17486264ed5"
+ },
+ "poi-cord-wrap": {
+  "3d": "ee1366c0e406",
+  "muscles": "653c414c402b"
+ },
+ "poi-crossers": {
+  "3d": "3ea9615a9c54",
+  "muscles": "49fe766a2524"
+ },
+ "poi-double-toss": {
+  "3d": "4c4f5292ebcb",
+  "muscles": "2b449fa59339"
+ },
+ "poi-extension": {
+  "3d": "901a67a0fdf8",
+  "muscles": "8f3e7d1a6ffc"
+ },
+ "poi-five-beat-weave": {
+  "3d": "6e1de7904a8c",
+  "muscles": "59c76ca39d04"
+ },
+ "poi-five-petal-antispin": {
+  "3d": "8a5dc49c3d45",
+  "muscles": "b16a5f23720f"
+ },
+ "poi-floor-wall-hybrid": {
+  "3d": "b99419e03bcf",
+  "muscles": "a53230b4414c"
+ },
+ "poi-fountain": {
+  "3d": "a9eb8b41eec1",
+  "muscles": "7f72f3ded753"
+ },
+ "poi-high-toss": {
+  "3d": "054282a54df7",
+  "muscles": "661fe34738ab"
+ },
+ "poi-hyperloop": {
+  "3d": "b503e90b12d3",
+  "muscles": "af605f424273"
+ },
+ "poi-inspin-flower": {
+  "3d": "e17531587a53",
+  "muscles": "680cb547bf28"
+ },
+ "poi-isolation": {
+  "3d": "348d5b3e2fa2",
+  "muscles": "d2ff6a37551a"
+ },
+ "poi-leg-wrap": {
+  "3d": "b0a206f60ea6",
+  "muscles": "a565e9a43c97"
+ },
+ "poi-low-floor": {
+  "3d": "fcd6daf3959e",
+  "muscles": "bc7fe877a823"
+ },
+ "poi-neck-wrap": {
+  "3d": "a9af378e90b4",
+  "muscles": "aba6f6bc3e7b"
+ },
+ "poi-one-hand-antispin": {
+  "3d": "61dc3d4bfbd1",
+  "muscles": "d4bb8679edaa"
+ },
+ "poi-one-hand-isolation": {
+  "3d": "5d44705cc4b0",
+  "muscles": "c1897c76cac2"
+ },
+ "poi-one-hand-spin": {
+  "3d": "2960256f8ae3",
+  "muscles": "fe87ceabf317"
+ },
+ "poi-opposite-wheels": {
+  "3d": "12b821c905f1",
+  "muscles": "279e308e065c"
+ },
+ "poi-overhead": {
+  "3d": "6696c46a1182",
+  "muscles": "a32bd72c6f01"
+ },
+ "poi-overhead-antispin": {
+  "3d": "31e34d9c59b7",
+  "muscles": "872cb2e41291"
+ },
+ "poi-reels": {
+  "3d": "931e31721748",
+  "muscles": "a8d09c019bd5"
+ },
+ "poi-reverse-butterfly": {
+  "3d": "49958ed33457",
+  "muscles": "3bf4716764b8"
+ },
+ "poi-reverse-three-beat-weave": {
+  "3d": "208dc0e525f2",
+  "muscles": "9e17e155f4a4"
+ },
+ "poi-reverse-wall-spin": {
+  "3d": "187d4c0e42ce",
+  "muscles": "d3aa36a0f228"
+ },
+ "poi-reverse-wheels": {
+  "3d": "f1825f100885",
+  "muscles": "eded3be5a615"
+ },
+ "poi-side-stall": {
+  "3d": "d588ad304acf",
+  "muscles": "35497e893687"
+ },
+ "poi-split-antispin": {
+  "3d": "ef6f80c16929",
+  "muscles": "06529c7cb8b9"
+ },
+ "poi-split-isolation": {
+  "3d": "4ab07fa43b6f",
+  "muscles": "0be9053c5510"
+ },
+ "poi-split-time": {
+  "3d": "a50bf2a35161",
+  "muscles": "7e19a65f7122"
+ },
+ "poi-stalls": {
+  "3d": "48c5bc16645e",
+  "muscles": "1732823449bf"
+ },
+ "poi-thread-the-needle": {
+  "3d": "8660ae70ab38",
+  "muscles": "492e8bd006a5"
+ },
+ "poi-three-beat-weave": {
+  "3d": "f5f4a512a9ff",
+  "muscles": "2c801b0f9cdd"
+ },
+ "poi-three-petal-antispin": {
+  "3d": "de9c98e78648",
+  "muscles": "ca096017cf50"
+ },
+ "poi-three-petal-inspin": {
+  "3d": "6ebb6cdb4147",
+  "muscles": "b0d5588c8802"
+ },
+ "poi-top-stall": {
+  "3d": "5511228c224f",
+  "muscles": "49a4b29c8679"
+ },
+ "poi-toss": {
+  "3d": "2cb5bb2a65ef",
+  "muscles": "0bd46aeb652c"
+ },
+ "poi-two-beat-weave": {
+  "3d": "66c69cc5a9f1",
+  "muscles": "17eac9647638"
+ },
+ "poi-wall-spin": {
+  "3d": "63c417638cbf",
+  "muscles": "b672437457e6"
+ },
+ "poi-wall-wheel-hybrid": {
+  "3d": "5b1219038f4b",
+  "muscles": "eb2c2bed3560"
+ },
+ "poi-wheel-antispin": {
+  "3d": "a00d63ba2077",
+  "muscles": "42a0e49e231c"
+ },
+ "poi-wheel-floor-hybrid": {
+  "3d": "f606bcb6bdf8",
+  "muscles": "e57a65db0277"
+ },
+ "poi-wheel-isolation": {
+  "3d": "c3cd538f4bce",
+  "muscles": "42a95e487167"
+ },
+ "poi-wheels": {
+  "3d": "5a95931bbfe4",
+  "muscles": "727b0444b5aa"
+ },
+ "rainbow-cross": {
+  "3d": "0249ec9cc07d",
+  "muscles": "671ac7c97f9f"
+ },
+ "relfs-rhythm": {
+  "3d": "005bd1830f70",
+  "muscles": "796a4a233e00"
  },
  "reverse-cascade": {
-  "3d": "c014a403bf78",
-  "muscles": "696d24de742a"
+  "3d": "a17ee746208a",
+  "muscles": "f4572311a256"
+ },
+ "ring-cascade": {
+  "3d": "832232c492df",
+  "muscles": "d209d1c1718b"
+ },
+ "ring-four-fountain": {
+  "3d": "ef1abb1b04fb",
+  "muscles": "a44eb2b2a236"
+ },
+ "ring-pancakes": {
+  "3d": "7c405ee6353c",
+  "muscles": "390bdfd7b1f2"
+ },
+ "rubensteins-revenge": {
+  "3d": "d96c8297003f",
+  "muscles": "c858d01e0571"
  },
  "shake-out": {
-  "3d": "b7347cee6124",
-  "muscles": "4a1c97ccf2ea"
+  "3d": "c182db31419e",
+  "muscles": "c4a82e4fe5f0"
  },
  "shoulder-rolls": {
-  "3d": "2e4a4ba076da",
-  "muscles": "42975ca077c5"
+  "3d": "442c45c074db",
+  "muscles": "626ee7406fd3"
  },
  "shower": {
-  "3d": "1b45ded6051e",
-  "muscles": "8e3bf04ca3cc"
+  "3d": "60ebc7f5e111",
+  "muscles": "adc24a1ef6fd"
+ },
+ "siteswap-42": {
+  "3d": "bee01701d9af",
+  "muscles": "052c41f82893"
  },
  "siteswap-423": {
-  "3d": "2ea3eaa3a356",
-  "muscles": "2b3e87cf939d"
+  "3d": "dbcb23e6a55e",
+  "muscles": "a3756ca1892e"
  },
  "siteswap-441": {
-  "3d": "3cc41a577682",
-  "muscles": "1ff1b9574322"
+  "3d": "beff794f0afb",
+  "muscles": "801cfad9eec5"
+ },
+ "siteswap-52512": {
+  "3d": "2fe4a0d73ba1",
+  "muscles": "dec1927eb3dc"
+ },
+ "siteswap-53": {
+  "3d": "e5d253c4049c",
+  "muscles": "5acb546b0ad5"
  },
  "siteswap-531": {
-  "3d": "6ce3b83cecfa",
-  "muscles": "32a4ee97b404"
+  "3d": "a657bfc4a7b6",
+  "muscles": "d1a33ef9796e"
+ },
+ "siteswap-534": {
+  "3d": "6a8b2bd0ac6c",
+  "muscles": "b3f1853958e7"
+ },
+ "siteswap-552": {
+  "3d": "1a69a35925cc",
+  "muscles": "425d2015e68a"
+ },
+ "siteswap-5551": {
+  "3d": "5fc467443d29",
+  "muscles": "0a1218b65da8"
+ },
+ "siteswap-55550": {
+  "3d": "02e4d2fd61dc",
+  "muscles": "637dc2ea9c6c"
+ },
+ "siteswap-612": {
+  "3d": "9c77bc2d2b91",
+  "muscles": "7bc12db9e767"
+ },
+ "siteswap-633": {
+  "3d": "a3c48a8b2e2f",
+  "muscles": "de5dc306bfc8"
+ },
+ "siteswap-645": {
+  "3d": "6aaf2d84f22f",
+  "muscles": "26b88500f70d"
+ },
+ "siteswap-744": {
+  "3d": "1e56de58c86e",
+  "muscles": "bbf969432456"
+ },
+ "six-ball-fountain": {
+  "3d": "066a2d8e21e9",
+  "muscles": "8c8a27c7c792"
+ },
+ "snake": {
+  "3d": "8d763dcd7127",
+  "muscles": "bcd7b143fd60"
+ },
+ "staff-angel-roll": {
+  "3d": "f71f72fabc44",
+  "muscles": "ee4b369f3feb"
+ },
+ "staff-antispin-3": {
+  "3d": "7d64ad3d27de",
+  "muscles": "c9ff5f17216e"
+ },
+ "staff-antispin-5": {
+  "3d": "5bb3206e3813",
+  "muscles": "842d1e9c187d"
  },
  "staff-antispin-flower": {
-  "3d": "a297f4553425",
-  "muscles": "859e9e2935bb"
+  "3d": "1d7864a3a105",
+  "muscles": "ac944d50bdaa"
  },
  "staff-behind-back-pass": {
-  "3d": "51abe4c46fc5",
-  "muscles": "7c815f67d370"
+  "3d": "e89abfa3f177",
+  "muscles": "084612568409"
  },
  "staff-butterfly": {
-  "3d": "4192654a32db",
-  "muscles": "52e3db319074"
+  "3d": "2ec4138bb9ed",
+  "muscles": "0598427310fe"
+ },
+ "staff-chest-roll": {
+  "3d": "5d47a1fc8d51",
+  "muscles": "e1b3f4db9df6"
+ },
+ "staff-double-toss": {
+  "3d": "067231f5e7ac",
+  "muscles": "3a4f97630d0f"
+ },
+ "staff-elbow-roll": {
+  "3d": "3ca1def5526c",
+  "muscles": "4d30af7e7535"
+ },
+ "staff-extension": {
+  "3d": "6282aba7eb2f",
+  "muscles": "e94c8d4b1ec8"
  },
  "staff-figure-8": {
-  "3d": "a3f65b59d795",
-  "muscles": "55c729eb2b13"
+  "3d": "561fc215d7e2",
+  "muscles": "f225559aa048"
+ },
+ "staff-fishtail": {
+  "3d": "8c6bb7b7b56c",
+  "muscles": "d35e290cc1b8"
+ },
+ "staff-flat-toss": {
+  "3d": "9115b2a117f3",
+  "muscles": "4e58e8f3a994"
+ },
+ "staff-floor-antispin": {
+  "3d": "4a7e52f0508b",
+  "muscles": "16ae68c6e03f"
+ },
+ "staff-floor-extension": {
+  "3d": "e83e29422c84",
+  "muscles": "699f1aa7fce4"
+ },
+ "staff-floor-isolation": {
+  "3d": "fda4caca41f2",
+  "muscles": "64e45c6b1cc5"
+ },
+ "staff-floor-wall-hybrid": {
+  "3d": "c6b533f2f178",
+  "muscles": "d9362643856a"
+ },
+ "staff-floor-wheel-hybrid": {
+  "3d": "f69906d9cf79",
+  "muscles": "5a9ef23fe035"
+ },
+ "staff-forearm-roll": {
+  "3d": "b59e2fa128d4",
+  "muscles": "83027d23fdef"
+ },
+ "staff-fountain": {
+  "3d": "e5542115b1e7",
+  "muscles": "b579d824082b"
  },
  "staff-front-spin": {
-  "3d": "78bcd7ec5764",
-  "muscles": "e3f8b0c3d7f1"
+  "3d": "056c1f862e7a",
+  "muscles": "99583797efef"
+ },
+ "staff-front-weave": {
+  "3d": "dac1941a6cbe",
+  "muscles": "4f72c50457f2"
+ },
+ "staff-hand-roll": {
+  "3d": "b2448396fa3a",
+  "muscles": "ff746e96a81a"
  },
  "staff-helicopter": {
-  "3d": "2992df943756",
-  "muscles": "0b8cc1c893c1"
+  "3d": "66993de88e07",
+  "muscles": "17d9f8b3d562"
+ },
+ "staff-inspin-3": {
+  "3d": "6012b0fba1be",
+  "muscles": "0fc5444a7028"
+ },
+ "staff-inspin-4": {
+  "3d": "2b2c45990ef9",
+  "muscles": "0cc740131b26"
  },
  "staff-isolation": {
-  "3d": "560d2d1f091a",
-  "muscles": "2894fae3f305"
+  "3d": "da43e093518d",
+  "muscles": "a246a1faddc0"
+ },
+ "staff-isolation-pass": {
+  "3d": "5676383e3220",
+  "muscles": "db1f3e3f30d9"
  },
  "staff-neck-roll": {
-  "3d": "638b9e76cafc",
-  "muscles": "d109128bfcc8"
+  "3d": "d1c459b3e260",
+  "muscles": "a101130ee599"
+ },
+ "staff-one-hand-reverse": {
+  "3d": "5491162d2799",
+  "muscles": "6ad24d55116e"
  },
  "staff-one-hand-spin": {
-  "3d": "9a54aa6f340a",
-  "muscles": "16fbe30de7d1"
+  "3d": "aad80e55c376",
+  "muscles": "138e8f06ebe6"
+ },
+ "staff-one-hand-wheel": {
+  "3d": "3fac749678e8",
+  "muscles": "f2b5a1715542"
+ },
+ "staff-overhead-pass": {
+  "3d": "1cb0aeb316d0",
+  "muscles": "257ab72d6d7e"
+ },
+ "staff-overhead-weave": {
+  "3d": "34909b0868ea",
+  "muscles": "97b8b0ac2915"
+ },
+ "staff-palm-spin": {
+  "3d": "82f1f6b376af",
+  "muscles": "1b49cad00cd8"
  },
  "staff-pass-through": {
-  "3d": "78f0e9ef6f7c",
-  "muscles": "cd2f9cd4c7e4"
+  "3d": "ee463d7e687a",
+  "muscles": "e925302a77f7"
+ },
+ "staff-reel": {
+  "3d": "822e97b47f7b",
+  "muscles": "f1b177925ee6"
+ },
+ "staff-reverse-behind-back": {
+  "3d": "8e8ab3cca603",
+  "muscles": "520f3ee4f103"
+ },
+ "staff-reverse-figure-8": {
+  "3d": "6d50681e96f8",
+  "muscles": "a41bf837c83c"
+ },
+ "staff-reverse-front-spin": {
+  "3d": "f56824c4eb97",
+  "muscles": "85b5f7540f2d"
+ },
+ "staff-reverse-helicopter": {
+  "3d": "57ce900d0421",
+  "muscles": "e3b0c17a336b"
+ },
+ "staff-reverse-wheel": {
+  "3d": "261f19dd4191",
+  "muscles": "cf13c751e09c"
+ },
+ "staff-shoulder-roll": {
+  "3d": "5f817346dc56",
+  "muscles": "fad5e7dc6140"
+ },
+ "staff-steering-wheel": {
+  "3d": "29feba2c9389",
+  "muscles": "e672b92ea26f"
+ },
+ "staff-toss": {
+  "3d": "ce0e175f9565",
+  "muscles": "7af81f6f5a60"
+ },
+ "staff-two-hand-helicopter": {
+  "3d": "1fbd8d6c0413",
+  "muscles": "ab7abd3727ca"
+ },
+ "staff-under-leg-pass": {
+  "3d": "7001e05f32d6",
+  "muscles": "62e7193fb022"
+ },
+ "staff-wall-wheel-hybrid": {
+  "3d": "b8be4927db2a",
+  "muscles": "9f9dea0a1997"
+ },
+ "staff-wheel-antispin": {
+  "3d": "725301cf09fc",
+  "muscles": "0d1e0fc041db"
+ },
+ "staff-wheel-extension": {
+  "3d": "40dbe9437714",
+  "muscles": "f79e1fe07e52"
+ },
+ "staff-wheel-fishtail": {
+  "3d": "d5bac7e64399",
+  "muscles": "96a462ca44f2"
+ },
+ "staff-wheel-inspin": {
+  "3d": "ad3d1be10920",
+  "muscles": "fda1434ff14d"
+ },
+ "staff-wheel-isolation": {
+  "3d": "ccea5f17fb5d",
+  "muscles": "285a2129060e"
+ },
+ "staff-wheel-pass": {
+  "3d": "cceb4ca620dc",
+  "muscles": "6575d15dd379"
  },
  "staff-wheel-spin": {
-  "3d": "e0121c1ccf9c",
-  "muscles": "9efbd0986714"
+  "3d": "42622fd5042d",
+  "muscles": "9f93ec075051"
  },
  "sync-fountain": {
-  "3d": "002803f161f7",
-  "muscles": "53653f686a10"
+  "3d": "0c56e7c9cc86",
+  "muscles": "2fff09cb2037"
+ },
+ "tennis": {
+  "3d": "c06433ac9e5c",
+  "muscles": "c1f6104f2acf"
+ },
+ "three-in-one": {
+  "3d": "076b1cf83898",
+  "muscles": "a1a6d46cfb52"
  },
  "torso-twists": {
-  "3d": "38280d1f3dd9",
-  "muscles": "0414ae3a00ec"
+  "3d": "a9806752464a",
+  "muscles": "01b53feeb154"
+ },
+ "tsunami": {
+  "3d": "8f5fd6b95de2",
+  "muscles": "84b531a5fb8d"
  },
  "two-ball-exchange": {
-  "3d": "a96256ba7276",
-  "muscles": "4d060ce8840c"
+  "3d": "873832b6c5fc",
+  "muscles": "a33260b887da"
  },
  "two-in-one": {
-  "3d": "282ee8d3124d",
-  "muscles": "82c4f34b1e11"
+  "3d": "dcb03a3c5451",
+  "muscles": "de20339da54d"
+ },
+ "under-the-leg": {
+  "3d": "908bebec2324",
+  "muscles": "233a8a4e617a"
+ },
+ "wimpy": {
+  "3d": "1920d9b949d3",
+  "muscles": "d1bb927fb484"
  },
  "wrist-circles": {
-  "3d": "dabb92ce54c4",
-  "muscles": "593c5a79c020"
+  "3d": "cf5fcb55f1b0",
+  "muscles": "419f56677841"
+ },
+ "yo-yo": {
+  "3d": "da882d077863",
+  "muscles": "9556727d2650"
  }
 }
