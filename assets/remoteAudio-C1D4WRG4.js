@@ -1,0 +1,1 @@
+var e=`local`,t=!1,n={seq:0,url:null,text:null},r=new Set;function i(){for(let e of r)e()}function a(t){e!==t&&(e=t,i())}function o(e){t!==e&&(t=e,i())}function s(){return e===`remote`||t}function c(e){return r.add(e),()=>r.delete(e)}function l(){return n}function u(e){n={seq:n.seq+1,url:e.url??null,text:e.text??null},i()}export{o as a,a as i,s as n,c as o,u as r,l as t};

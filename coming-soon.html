@@ -195,11 +195,27 @@
         font-weight: 600;
         text-decoration: none;
       }
+      .dev-try {
+        margin: 0 0 1.25rem;
+        font-size: 0.95rem;
+      }
+      .dev-try a {
+        color: var(--teal);
+        font-weight: 600;
+        text-decoration: underline;
+        text-underline-offset: 0.15em;
+      }
+      .dev-try a:hover {
+        color: var(--deep);
+      }
     </style>
   </head>
   <body>
     <main>
       <p class="status">Coming soon · Juggling · Hoop · Staff</p>
+      <p class="dev-try">
+        <a href="./?debug=1">Try developer version</a>
+      </p>
       <div class="hero-brand">
         <img class="logo" src="./app-icon-512.png" width="512" height="512" alt="SynthFlow logo" />
         <h1 class="brand">SynthFlow</h1>
